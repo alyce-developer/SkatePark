@@ -1,3 +1,34 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+.navbar-nav {
+  padding-top: 15px;
+}
+.navbar-expand-lg {
+  padding-bottom: 20px;
+}
+.navbar-brand {
+  font-size: 43px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.nav-item {
+  padding: 20px;
+}
 .highlight {
   color: #00a4ff;
+}
+.col-xxl-7 {
+  font-weight: 700;
+  color: #01304a;
+}
+.sub-text {
+  color: #01304a;
+  font-weight: 500;
+}
+.list {
+  list-style: none;
+}
+.mb-2 {
+  padding-right: 30px;
 }
