@@ -19,9 +19,7 @@
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-lg fixed-top"
-      style="background-color: #00a4ff"
-    >
+      class="navbar navbar-expand-lg fixed-top">
       <div class="container">
         <a class="navbar-brand fw-bold text-light" href="#">SkatePark</a>
         <button
@@ -39,13 +37,13 @@
         <div class="navbar-collapse collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Pista</a>
+              <a class="nav-link text-light" href="#">Sobre a pista</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="#">Aulas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Contato</a>
+              <a class="nav-link text-light" href="#">Entre em contato!</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="#">Matricule-se</a>
@@ -285,7 +283,7 @@
       "
     >
       <div class="container text-center">
-        <h2 class="display-3 mb-3 text-light fw-normal mb-5">
+        <h2 class="display-3 mb-3 text-light mb-5" style="font-weight: 500">
           “O skate é a base da
           <div class="text-break">liberdade...”</div>
         </h2>
@@ -294,24 +292,25 @@
     </section>
     <section class="container py-5">
       <h2
-        class="display-6 fw-normal text-center mb-3 fs-1"
-        style="color: #01304a"
-      >
+        class="display-6 text-center mb-5"
+        style="color: #01304a; font-weight: 500; font-size: 60px;">
         Contato
       </h2>
       <div class="row">
         <div class="col-5">
-          <form action="">
-            <div class="mb-3 fs-5" style="color: #8496a0">
+          <form action="" class="needs-validation" novalidate>
+            <div class="mb-3" style="color: #8496a0; font-weight: 700; font-size: 20px;">
               <label for="nome" class="form-label"><strong>Nome</strong></label>
               <input
                 type="text"
                 class="form-control"
                 id="nome"
                 style="background-color: #edf4f8"
+                required
               />
+				<div class="invalid-feedback">Informe seu nome</div>
             </div>
-            <div class="mb-3 fs-5" style="color: #8496a0">
+            <div class="mb-3" style="color: #8496a0; font-weight: 700; font-size: 20px; ">
               <label for="email" class="form-label"
                 ><strong>Email</strong></label
               >
@@ -320,9 +319,22 @@
                 class="form-control"
                 id="email"
                 style="background-color: #edf4f8"
+                required
               />
+				<div class="invalid-feedback">Informe seu email</div>
             </div>
-            <div class="mb-3 fs-5 mb-4" style="color: #8496a0">
+			<div class="mb-3" style="color: #8496a0; font-weight: 700; font-size: 20px;">
+              <label for="telefone" class="form-label"><strong>Telefone</strong></label>
+              <input
+                type="text"
+                class="form-control"
+                id="telefone"
+                style="background-color: #edf4f8"
+                required
+              />
+				<div class="invalid-feedback">Informe seu telefone</div>
+            </div>
+            <div class="mb-3 mb-5" style="color: #8496a0; font-weight: 700; font-size: 20px;">
               <label for="mensagem" class="form-label"
                 ><strong>Mensagem</strong></label
               >
@@ -334,43 +346,40 @@
               ></textarea>
             </div>
             <button
-              type="submit"
-              class="btn btn-primary text-uppercase w-50 p-2 border border-secondary"
-              style="background-color: #01304a"
-            >
-              Enviar mensagem
+              type="submit" class="btn btn-primary text-uppercase w-50 p-2 border border-secondary" style="background-color: #01304a; font-weight: 500; letter-spacing: 0.08em;">
+              Enviar
             </button>
           </form>
         </div>
         <div class="col-5 offset-2">
-          <div class="mb-4" style="color: #01304a">
-            <strong class="fs-4 mb-4">Endereço</strong>
-            <p class="mb-0 fs-5" style="color: #8496a0">Rua Daventura, 156</p>
-            <p class="mb-0 fs-5" style="color: #8496a0">Curitiba - PR</p>
+          <div class="mb-4">
+            <strong style="color: #01304a; font-weight: 600; font-size: 20px">Endereço</strong>
+            <p class="mb-0" style="color: #8496a0; font-weight: 500; font-size: 16px">Rua Daventura, 156</p>
+            <p class="mb-0" style="color: #8496a0; font-weight: 500; font-size: 16px">Curitiba - PR</p>
           </div>
-          <div class="mb-4" style="color: #01304a">
-            <strong class="fs-4 mb-4">Email e telefone</strong>
-            <p class="mb-0 fs-5" style="color: #8496a0">
+          <div class="mb-4">
+            <strong style="color: #01304a; font-weight: 600; font-size: 20px">Email e telefone</strong>
+            <p class="mb-0" style="color: #8496a0; font-weight: 500; font-size: 16px">
               contato@skatepark.com.br
             </p>
-            <p class="mb-0 fs-5" style="color: #8496a0">(41) 99999-9999</p>
+            <p class="mb-0" style="color: #8496a0; font-weight: 500; font-size: 16px">(41) 99999-9999</p>
           </div>
-          <div class="mb-4" style="color: #01304a">
-            <strong class="fs-4 mb-4">Horários</strong>
-            <p class="mb-0 fs-5" style="color: #8496a0">De Segunda à Sexta</p>
-            <p class="mb-0 fs-5" style="color: #8496a0">Das 09h às 19h</p>
-            <p class="mb-0 fs-5" style="color: #8496a0">Sábado</p>
-            <p class="mb-0 fs-5" style="color: #8496a0">Das 09h às 17h</p>
+          <div class="mb-4">
+            <strong style="color: #01304a; font-weight: 600; font-size: 20px">Horários</strong>
+            <p class="mb-0" style="color: #8496a0; font-weight: 500; font-size: 16px">De Segunda à Sexta</p>
+            <p class="mb-0" style="color: #8496a0; font-weight: 500; font-size: 16px">Das 09h às 19h</p>
+            <p class="mb-0" style="color: #8496a0; font-weight: 500; font-size: 16px">Sábado</p>
+            <p class="mb-0" style="color: #8496a0; font-weight: 500; font-size: 16px">Das 09h às 17h</p>
           </div>
         </div>
       </div>
     </section>
     <footer style="background-color: #00a4ff">
       <div
-        class="container py-3 d-flex align-items-center justify-content-between"
+        class="container py-4 d-flex align-items-center justify-content-between"
       >
-        <p class="mb-0 text-light fw-bold">
-          <span class="text-uppercase">SkatePark 2022</span> - Alguns direitos
+        <p class="mb-0 text-light">
+          <span class="text-uppercase" style="font-weight: 700">SkatePark 2022</span> - Alguns direitos
           reservados.
         </p>
         <img
@@ -380,6 +389,12 @@
         />
       </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    	<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.7/jquery.inputmask.min.js">
+		</script>
+		<script src="./formValidation.js"></script>
+    	<script src="/animateOnScroll.js"></script>
+	</body>
 </html>

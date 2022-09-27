@@ -1,6 +1,10 @@
 * {
   font-family: "Inter", sans-serif;
 }
+.navbar {
+  background-color: #00a4ff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
 .navbar-nav {
   padding-top: 15px;
 }
@@ -13,7 +17,7 @@
   padding-top: 15px;
 }
 .nav-item {
-  padding: 20px;
+  padding: 10px;
 }
 .highlight {
   color: #00a4ff;
@@ -31,4 +35,10 @@
 }
 .mb-2 {
   padding-right: 30px;
+}
+.form-control {
+  background: #EDF4F8;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  border: none;
 }
