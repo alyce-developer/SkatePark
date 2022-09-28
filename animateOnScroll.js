@@ -7,7 +7,7 @@ function animate() {
     var elementVisible = 10;
 
     if (elementTop < windowHeight - elementVisible) {
-      animateList[i].classList.add("animate__fadeInUp");
+      animateList[i].classList.add("animate__fadeInLeft");
     }
   }
 }
