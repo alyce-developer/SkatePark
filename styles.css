@@ -5,16 +5,11 @@
   background-color: #00a4ff;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
 }
-.navbar-nav {
-  padding-top: 15px;
-}
 .navbar-expand-lg {
-  padding-bottom: 1%;
+  padding-bottom: 2px;
 }
 .navbar-brand {
   font-size: 43px;
-  padding-left: 10px;
-  padding-top: 15px;
 }
 .nav-item {
   padding: 10px;
